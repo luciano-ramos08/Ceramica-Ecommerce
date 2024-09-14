@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "productName": "Taza 'Hearts' 3D",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$5.000",
+    "imagesrc": "../img/taza_corazon_3d.jpeg",
+    "productType": "taza",
+    "productLink": "../html/taza_hearts_3d.html"
+  },
+  {
+      "id": 2,
+      "productName": "Taza 'Roll Film'",
+      "productDescription": "Es una tacita de te de una abuela",
+      "productPrice": "$7.000",
+      "imagesrc": "../img/taza_cine.jpeg",
+      "productType": "taza"
+    },
+    {
+      "id": 2,
+      "productName": "Taza 'Smile'",
+      "productDescription": "Es una tacita de te de una abuela",
+      "productPrice": "$4.500",
+      "imagesrc": "../img/taza_smile.jpg",
+      "productType": "taza"
+    },
+    {
+      "id": 2,
+      "productName": "Taza 'Rapunzel'",
+      "productDescription": "Es una tacita de te de una abuela",
+      "productPrice": "$4.500",
+      "imagesrc": "../img/taza_rapunzel.jpeg",
+      "productType": "taza"
+    },
+    {
+      "id": 2,
+      "productName": "Taza 'Cat'",
+      "productDescription": "Es una tacita de te de una abuela",
+      "productPrice": "$4.500",
+      "imagesrc": "../img/taza_gato.jpeg",
+      "productType": "taza"
+    },
+    {
+      "id": 2,
+      "productName": "Taza 'Cloud'",
+      "productDescription": "Es una tacita de te de una abuela",
+      "productPrice": "$4.500",
+      "imagesrc": "../img/taza_nubes.jpeg",
+      "productType": "taza"
+    }
+
+
+]

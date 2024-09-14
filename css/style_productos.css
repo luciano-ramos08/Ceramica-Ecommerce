@@ -1,0 +1,346 @@
+/* SCROLLBAR */
+::-webkit-scrollbar{
+    width: 12px; 
+    height: 12px; 
+}
+
+::-webkit-scrollbar-track{
+    background: #dcdcdc; 
+    border-radius: 10px; 
+}
+  
+::-webkit-scrollbar-thumb{
+    background: #bb9097;
+    border-radius: 10px; 
+}
+  
+::-webkit-scrollbar-thumb:hover{
+    background: #b18189; 
+}
+
+/* BODY */
+
+body{
+    background-color: #d8c0c4;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+}
+
+
+/* TITULO */
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5em; 
+    text-align: center;
+   
+}
+
+.intro h1{
+    margin: 0;
+    font-size: 40px; 
+    color: #fdfdfd;
+
+}
+
+.logo{
+    margin: 0 0 0 5px;
+    border-radius: 10px;
+}
+
+/* HEADER */
+
+header{
+    color: #ffffff;
+    padding: 1% 0;
+    border-top: 1px solid #c0a4a9;
+    border-bottom: 1px solid #c0a4a9;
+    display: flex;
+    justify-content: center; /* Centra el contenedor de navegación horizontalmente */
+}
+
+header nav{
+    display: flex;
+    justify-content: center; /* Centra los elementos dentro del nav */
+    align-items: center; /* Asegura que los elementos estén verticalmente centrados */
+    width: 100%; /* Ocupa todo el ancho del header */
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap; /* Evita el salto de línea en elementos de la lista */
+    align-items: center; /* Asegura que los elementos estén alineados verticalmente */
+}
+
+header nav ul li{
+    margin: 0 5%; /* Espaciado entre los elementos */
+}
+
+header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.3s ease, color 0.3s ease;
+    white-space: nowrap; /* Previene que el texto se divida en varias líneas */
+}
+
+header nav ul li a:hover{
+    color: #b18189;
+}
+
+.items{
+    white-space: nowrap;
+    
+}
+
+.items a{
+    padding-right: 1em;
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+header .items a:hover{
+    color: #b18189;
+}
+
+/* PRODUCTO */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8c0c4; 
+    border-bottom:1px solid #c0a4a9;
+    margin-bottom: 30px;
+    padding: 0; 
+}
+
+.product-image,
+.product-details{
+    flex: 1;
+}
+
+.product-image{
+    padding: 2% 2% 2% 5%; /* Eliminar padding para que no haya espacio */
+}
+
+.product-image img{
+    width: 38em;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    gap: 10px; /* Reducir el espacio entre los elementos */
+    padding: 10px; /* Añadir un poco de padding si es necesario */
+}
+
+.product-details h1{
+    margin: 0; /* Elimina el margen superior y ajusta el margen general */
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 1.2; /* Ajustar la altura de línea para un espaciado más compacto */
+}
+
+.price{
+    font-size: 20px;
+    color: #b18189;
+    margin: 0; /* Elimina los márgenes superior e inferior */
+    font-weight: 500;
+    line-height: 1.2; /* Ajustar la altura de línea para un espaciado más compacto */
+}
+
+.description{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 2% 0 5% 0; /* Elimina los márgenes superior e inferior */
+    line-height: 1.5; /* Ajustar la altura de línea para un espaciado más compacto */
+}
+
+button{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d8c0c4;
+    border: none;
+    cursor: pointer;
+}
+
+.quantity-control button{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9e616b;
+}
+
+.quantity-control{
+    color: #853543;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre los elementos dentro del contenedor */
+}
+
+.add-to-cart{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b18189;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; 
+}
+
+
+.add-to-cart:hover{
+    background-color: #9e616b;
+}
+
+.quantity{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.collapsible {
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px #9e616b solid;
+    text-align: left;
+    width: fit-content;
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+
+.collapsible-content {
+    display: none; 
+    font-size: 10px;
+    padding: 10px;
+    margin: 1% 0 0 0;
+    background-color: #bb909767; 
+    border-radius: 4px;
+}
+
+.collapsible-content p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.collapsible2 {
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px #9e616b solid;
+    text-align: left;
+    width: fit-content;
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+
+.collapsible-content2 {
+    display: none; /* Initially hidden */
+    overflow: hidden;
+    background-color: #bb909767;
+    margin: 1% 0 0 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+input {
+    padding: px;
+    margin-bottom: 10px;
+    width: 95%;
+    color: #ffffff;
+    
+}
+
+button[type="submit"] {
+    background-color: #b18189;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #9e616b;
+}
+
+#shipping-cost{
+    color: #ffffff;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #bb9097; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-weight: 400;
+}
+
+.footer-content{
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.footer-links{
+    list-style: none; 
+    padding: 0;
+    margin: 10px 0 0; 
+}
+
+.footer-links li{
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.footer-links a{
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.4s ease; 
+}
+
+.footer-links a:hover{
+    color: #444444; 
+}
+

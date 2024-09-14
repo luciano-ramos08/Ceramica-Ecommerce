@@ -1,0 +1,38 @@
+[
+    {
+    "id": 1,
+      "productName": "Posa - cubiertos",
+      "productDescription": "Es una tacita de te de una abuela",
+      "productPrice": "$5.000",
+      "imagesrc": "../img/apoya_cubiertos.jpg",
+      "productType": "taza",
+      "productLink": ""
+    },
+    {
+    "id": 1,
+      "productName": "Servilletero",
+      "productDescription": "Es una tacita de te de una abuela",
+      "productPrice": "$6.000",
+      "imagesrc": "../img/servilletero.jpg",
+      "productType": "taza",
+      "productLink": ""
+    },
+    {
+      "id": 1,
+        "productName": "Huevera",
+        "productDescription": "Es una tacita de te de una abuela",
+        "productPrice": "$10.000",
+        "imagesrc": "../img/huevera_cocina.jpg",
+        "productType": "taza",
+        "productLink": ""
+      },
+      {
+        "id": 1,
+          "productName": "Galletero",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$13.000",
+          "imagesrc": "../img/galletero.jpg",
+          "productType": "taza",
+          "productLink": ""
+        }
+]
