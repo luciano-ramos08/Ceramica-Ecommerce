@@ -1,0 +1,106 @@
+[
+    {
+        "id": 3,
+        "productName": "Set 'Bows'",
+        "productDescription": "Es una tacita de te de una abuela",
+        "productPrice": "$25000",
+        "imagesrc": "../img/set_bows2.jpeg",
+        "productType": "set"
+      },
+      {
+        "id": 3,
+        "productName": "Set 'Bears'",
+        "productDescription": "Es una tacita de te de una abuela",
+        "productPrice": "$10000",
+        "imagesrc": "../img/set_bear.jpg",
+        "productType": "set"
+      },
+      {
+        "id": 3,
+        "productName": "Set 'Cherry'",
+        "productDescription": "Es una tacita de te de una abuela",
+        "productPrice": "$30000",
+        "imagesrc": "../img/set_cherry.jpeg",
+        "productType": "Aluminio"
+      },
+      {
+        "id": 1,
+        "productName": "Set 'Golden Blossoms'",
+        "productDescription": "Es una tacita de te de una abuela",
+        "productPrice": "$15000",
+        "imagesrc": "../img/set1.jpeg",
+        "productType": "Porcelana"
+      },
+      {
+          "id": 2,
+          "productName": "Set 'Sunshine Blooms'",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$15000",
+          "imagesrc": "../img/set2.jpeg",
+          "productType": "Aluminio"
+        },
+        {
+          "id": 3,
+          "productName": "Set 'Pink Tulips'",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$15000",
+          "imagesrc": "../img/set3.jpeg",
+          "productType": "Aluminio"
+        },
+        {
+          "id": 3,
+          "productName": "Set 'Pink Blooms'",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$15000",
+          "imagesrc": "../img/set4.jpeg",
+          "productType": "Aluminio"
+        },
+        {
+          "id": 3,
+          "productName": "Set 'Bright Blooms'",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$15000",
+          "imagesrc": "../img/set5.jpeg",
+          "productType": "Aluminio"
+        },
+        {
+          "id": 3,
+          "productName": "Set 'Sweet Love'",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$15000",
+          "imagesrc": "../img/set6.jpeg",
+          "productType": "Aluminio"
+        },
+        {
+          "id": 3,
+          "productName": "Set rayas",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$4.500",
+          "imagesrc": "../img/set_bath_rayas.jpg",
+          "productType": "Aluminio"
+        },
+        {
+          "id": 3,
+          "productName": "Set",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$4.500",
+          "imagesrc": "../img/bandeja_jabonera_bath.jpg",
+          "productType": "Aluminio"
+        },
+        {
+          "id": 2,
+          "productName": "Set ",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$7.000",
+          "imagesrc": "../img/set_bath_aros.jpg",
+          "productType": "taza"
+        },
+        {
+          "id": 2,
+          "productName": "Set",
+          "productDescription": "Es una tacita de te de una abuela",
+          "productPrice": "$4.500",
+          "imagesrc": "../img/set_bath.jpg",
+          "productType": "taza"
+        }
+    ]

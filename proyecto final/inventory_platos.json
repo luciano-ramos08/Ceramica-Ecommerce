@@ -1,0 +1,66 @@
+[
+  {
+    "id": 3,
+    "productName": "Plato 'Eat Me'",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$4.500",
+    "imagesrc": "../img/plato_eat_me.jpg",
+    "productType": "Aluminio"
+  },
+  {
+    "id": 3,
+    "productName": "Plato 'Sleeping Bear'",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$4.500",
+    "imagesrc": "../img/plato_bear.jpeg",
+    "productType": "Aluminio"
+  },
+  {
+    "id": 3,
+    "productName": "Plato 'Love Yourself'",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$4.500",
+    "imagesrc": "../img/plato_love_yourself.jpg",
+    "productType": "Aluminio"
+  },
+  {
+    "id": 3,
+    "productName": "Plato 'Bows'",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$4.500",
+    "imagesrc": "../img/plato_bows.jpg",
+    "productType": "Aluminio"
+  },
+  {
+    "id": 3,
+    "productName": "Plato 'Blue Blossom'",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$4.500",
+    "imagesrc": "../img/plato_blue_flower.jpg",
+    "productType": "Aluminio"
+  },
+  {
+    "id": 3,
+    "productName": "Plato 'Pink Petals'",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$4.500",
+    "imagesrc": "../img/plato_flower_circle.jpg",
+    "productType": "Aluminio"
+  },
+  {
+    "id": 3,
+    "productName": "Plato 'Crimson'",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$4.500",
+    "imagesrc": "../img/plato_red_flower.jpg",
+    "productType": "Aluminio"
+  },
+  {
+    "id": 3,
+    "productName": "Plato 'Golden Petal'",
+    "productDescription": "Es una tacita de te de una abuela",
+    "productPrice": "$4.500",
+    "imagesrc": "../img/plato_yellow_flower.jpg",
+    "productType": "Aluminio"
+  }
+]
